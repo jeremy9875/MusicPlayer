@@ -21,7 +21,7 @@ namespace MusicPlayer.Model
             }
         }
 
-        private float _volume = 1.0f;
+        private float _volume = 0.2f;
         public float Volume
         {
             get { return _volume; }
