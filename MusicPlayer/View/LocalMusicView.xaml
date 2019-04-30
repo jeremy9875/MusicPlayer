@@ -27,11 +27,11 @@
 
 
         <StackPanel Grid.Row="0" VerticalAlignment="Center" Orientation="Horizontal">
-            <TextBlock Text="Musique locale" FontSize="16" VerticalAlignment="Center" Margin="20, 0, 0, 0"></TextBlock>
+            <TextBlock Text="Musique" FontSize="16" VerticalAlignment="Center" Margin="20, 0, 0, 0"></TextBlock>
         </StackPanel>
 
         <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" >
-            <Custom:MusicButton MusicIcon="&#xe604;" Style="{StaticResource PlayAllStyle}">Tout jouer</Custom:MusicButton>
+            <!--<Custom:MusicButton MusicIcon="&#xe604;" Style="{StaticResource PlayAllStyle}">Tout jouer</Custom:MusicButton>-->
             <Custom:MusicButton MusicIcon="&#xe64d;" Command="{Binding addItemCommand}"></Custom:MusicButton>
         </StackPanel>
         

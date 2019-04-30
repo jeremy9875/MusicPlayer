@@ -45,22 +45,22 @@
                 <Custom:MusicButton MusicIcon="&#xe68b;">FunyRadio</Custom:MusicButton>
             </StackPanel>
 
-            <Grid Grid.Column="1">
+            <!--<Grid Grid.Column="1">
                 <Grid Margin="10" Width="180" HorizontalAlignment="Left">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="8"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                         <ColumnDefinition Width="22"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <Rectangle Grid.Column="0" Grid.ColumnSpan="3" Fill="Thistle" RadiusX="8" RadiusY="8" Opacity="1"></Rectangle>
+                    <Rectangle Grid.Column="0" Grid.ColumnSpan="3" Fill="Thistle" RadiusX="8" RadiusY="8" Opacity="1"></Rectangle>-->
                     <!--<TextBox Grid.Column="1" Style="{StaticResource TextBoxStyle}" BorderThickness="0" Opacity="0.6" Text="{Binding Source={StaticResource Locator}, Path=SearchMusic.SearchName, UpdateSourceTrigger=PropertyChanged}" >-->
                         <!--<TextBox.InputBindings>
                             <KeyBinding Command="{Binding SearchMusicCommand}" Key="Return"/>
                         </TextBox.InputBindings>-->
                         <!--</TextBox>
                     <Custom:MusicButton Grid.Column="2" Foreground="DarkSlateGray" IconSize="10" MusicIcon="&#xe619;" Style="{StaticResource OnlyIcon}" Command="{Binding Source={StaticResource Locator}, Path=FindMusic.PlayUrlCommand}"></Custom:MusicButton>-->
-                </Grid>
-            </Grid>
+                <!--</Grid>
+            </Grid>-->
 
             <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
                 <!--<Custom:MusicButton MusicIcon="&#xe62a;" Style="{StaticResource OnlyIcon}" ToolTip="Acceuil"></Custom:MusicButton>-->

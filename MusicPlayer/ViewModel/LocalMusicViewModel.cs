@@ -303,7 +303,7 @@ namespace MusicPlayer.ViewModel
         {
             OpenFileDialog open = new OpenFileDialog();
             open.Multiselect = true;
-            open.Filter = "Music File(*.mp3;*.wma;*.m4a;*.wav;*.ape;*.flac;)|*.mp3;*.wma;*.m4a;*.wav;*.ape;*.flac";
+            open.Filter = "Music File(*.m3u,*.mp3;*.wma;*.m4a;*.wav;*.ape;*.flac;)|*.m3u;*.mp3;*.wma;*.m4a;*.wav;*.ape;*.flac";
             if (open.ShowDialog() == DialogResult.Cancel)
             {
                 return;
@@ -313,6 +313,7 @@ namespace MusicPlayer.ViewModel
                 
                 if(findMusic(item) == null)
                 {
+                    //var music = @"..\..\..\MusicPlayer\barns_courtney_glitter_gold.mp3";
                     playList.Add(new MusicInfo(item, Num));
                     Num++;
                 }
