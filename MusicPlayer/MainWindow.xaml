@@ -42,7 +42,7 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" >
-                <Custom:MusicButton MusicIcon="&#xe68b;">FunyRadio</Custom:MusicButton>
+                <Custom:MusicButton MusicIcon="&#xe68b;">FunyMusic</Custom:MusicButton>
             </StackPanel>
 
             <!--<Grid Grid.Column="1">
@@ -64,8 +64,8 @@
 
             <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
                 <!--<Custom:MusicButton MusicIcon="&#xe62a;" Style="{StaticResource OnlyIcon}" ToolTip="Acceuil"></Custom:MusicButton>-->
-                <Custom:MusicButton MusicIcon="&#xe606;" Style="{StaticResource OnlyIcon}" ToolTip="Réglage"></Custom:MusicButton>
-                <Label Foreground="Gray" VerticalAlignment="Stretch">|</Label>
+                <!--<Custom:MusicButton MusicIcon="&#xe606;" Style="{StaticResource OnlyIcon}" ToolTip="Réglage"></Custom:MusicButton>-->
+                <Label Foreground="Gray"  VerticalAlignment="Stretch" Visibility="Hidden">|</Label>
                 <Custom:MusicButton MusicIcon="&#xe664;" Style="{StaticResource OnlyIcon}" ToolTip="Réduire" Click="MinimizeCommand"></Custom:MusicButton>
                 <Custom:MusicButton MusicIcon="&#xe66d;" Style="{StaticResource OnlyIcon}" ToolTip="Agrandir" Click="MaximizeCommand"></Custom:MusicButton>
                 <Custom:MusicButton MusicIcon="&#xe65a;" Style="{StaticResource OnlyIcon}" ToolTip="Fermer" Click="WindowCloseCommand"></Custom:MusicButton>
